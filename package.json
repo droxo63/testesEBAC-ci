@@ -10,7 +10,8 @@
     "cy:run-junit": "npx cypress run --reporter junit",
     "cy:dashboard": "",
     "cy:report": "",
-    "test":" mocha cypress/integration --reporter mochawesome"
+    "test":" mocha cypress/integration --reporter mochawesome", 
+     "cy:run": "cypress run --reporter mochawesome"
     
   },
   "repository": {
